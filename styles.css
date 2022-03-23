@@ -7,7 +7,7 @@
 	text-decoration: none;
 	outline: none;
 
-
+    font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 	}
 
@@ -15,6 +15,8 @@
     position: fixed;
     width: 100%;
     height: 80px;
+    background-color: #fff;
+    padding-bottom: px;
 
 }
 
@@ -39,16 +41,19 @@
 
 body {
     background-color: #666;
-    text-align: center;
 }
 
 .card {
     background-color: #fff;
     width: 300px;
+    height: 350px;
     padding: 40px;
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.25);
 }
 
+.textcont {
+    text-align: center;
+}
 
 .cont {
     display: flex;
@@ -56,18 +61,19 @@ body {
     justify-content: center;
     position: absolute;
     max-width: 1200px;
-    margin: auto;
-    margin-top: 80px;
+    margin-top: 125px;
     column-gap: 60px;
     row-gap: 100px;
+
 }
 
 .save {
     position: absolute;
     height: 50px;
     width:  160px;
-    margin-right: 50px;
-    margin-top: 15px;
+    margin-left: 30px;
+    margin-top: 35px;
+    margin-right: px !important;
     background-color: #fff;
     color: #666;
     border: 1.5px solid #666;
@@ -79,6 +85,10 @@ body {
 
 .title {
     font-size: 18px;
+    padding: 20px;
+    text-decoration: underline;
+    text-decoration-color: #666;
+    text-underline-offset: 10px;
 }
 
 .subcont {
@@ -88,7 +98,7 @@ body {
     height: 160px;
     border-radius: 100px;
     margin-left: 12.5%;
-    padding-top: 13.5%;
+    padding-top: 12.5%;
 
 }
 
@@ -100,4 +110,16 @@ body {
 .text {
     font-size: 18px;
     font-weight: bold;
+}
+
+.btntxt {
+    text-align: left;
+    margin-top: 15px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.save > span {
+    font-size: 36px;
+    text-align: right;
 }
