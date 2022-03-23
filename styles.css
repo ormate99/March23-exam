@@ -61,7 +61,8 @@ body {
     justify-content: center;
     position: absolute;
     max-width: 1200px;
-    margin-top: 125px;
+    margin-top: 125px !important;
+    margin: 12.5vw;
     column-gap: 60px;
     row-gap: 100px;
 
@@ -122,4 +123,9 @@ body {
 .save > span {
     font-size: 36px;
     text-align: right;
+}
+
+.save:hover {
+    background-color: #666;
+    color: #fff;
 }
